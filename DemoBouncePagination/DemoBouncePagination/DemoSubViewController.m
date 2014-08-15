@@ -45,7 +45,7 @@
     }
     
     cell.backgroundColor = [UIColor grayColor];
-    cell.textLabel.text = @"这是第二个页面";
+    cell.textLabel.text = @"Page Two Text";
     cell.textLabel.textAlignment = NSTextAlignmentCenter;
     
     return cell;

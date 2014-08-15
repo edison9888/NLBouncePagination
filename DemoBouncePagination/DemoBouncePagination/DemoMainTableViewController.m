@@ -22,7 +22,7 @@
     
     self.dataListOne = [NSMutableArray array];
     for (int i = 0; i<10; i++) {
-        [self.dataListOne addObject:[NSString stringWithFormat:@"Text PlaceHolder %d", i]];
+        [self.dataListOne addObject:[NSString stringWithFormat:@"Page one text %d", i]];
     }
     
     self.subTableViewController = [[DemoSubViewController alloc] init];
