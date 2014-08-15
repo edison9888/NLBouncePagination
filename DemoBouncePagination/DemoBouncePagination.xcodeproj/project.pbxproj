@@ -25,6 +25,7 @@
 		D7C20596199DE96200D98A6E /* NLPullDownRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C20590199DE96200D98A6E /* NLPullDownRefreshView.m */; };
 		D7C20597199DE96200D98A6E /* NLPullUpRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C20592199DE96200D98A6E /* NLPullUpRefreshView.m */; };
 		D7C20598199DE96200D98A6E /* NLSubTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C20594199DE96200D98A6E /* NLSubTableViewController.m */; };
+		D7C2059D199DEFD700D98A6E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D7C2059C199DEFD700D98A6E /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		D7C20592199DE96200D98A6E /* NLPullUpRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLPullUpRefreshView.m; sourceTree = "<group>"; };
 		D7C20593199DE96200D98A6E /* NLSubTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLSubTableViewController.h; sourceTree = "<group>"; };
 		D7C20594199DE96200D98A6E /* NLSubTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLSubTableViewController.m; sourceTree = "<group>"; };
+		D7C2059C199DEFD700D98A6E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		D7C2058C199DE94700D98A6E /* NLBouncePagination */ = {
 			isa = PBXGroup;
 			children = (
+				D7C20599199DEE8F00D98A6E /* resources */,
 				D7C2058D199DE96200D98A6E /* NLMainTableViewController.h */,
 				D7C2058E199DE96200D98A6E /* NLMainTableViewController.m */,
 				D7C2058F199DE96200D98A6E /* NLPullDownRefreshView.h */,
@@ -180,6 +183,14 @@
 				D7C20594199DE96200D98A6E /* NLSubTableViewController.m */,
 			);
 			name = NLBouncePagination;
+			sourceTree = "<group>";
+		};
+		D7C20599199DEE8F00D98A6E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7C2059C199DEFD700D98A6E /* arrow.png */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C20562199DE89D00D98A6E /* InfoPlist.strings in Resources */,
+				D7C2059D199DEFD700D98A6E /* arrow.png in Resources */,
 				D7C2056A199DE89D00D98A6E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -60,23 +60,10 @@
     cellLabel.text = [self.dataListOne objectAtIndex:indexPath.row];
     cellLabel.textAlignment = NSTextAlignmentCenter;
     
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeInfoDark];
-//    [btn addTarget:self action:@selector(btnHandler) forControlEvents:UIControlEventTouchUpInside];
-    
     [cell.contentView addSubview:cellLabel];
-    [cell.contentView addSubview:btn];
     
     return cell;
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    NSLog(@"aa");
-}
-
-- (void)btnHandler
-{
-    NSLog(@"xx");
-}
 
 @end
